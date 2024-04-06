@@ -1,0 +1,23 @@
+.footer {
+    width: 100%;
+    padding: 30px 0;
+    background-color: #ff8fab;
+    &__desk {
+        margin: 0;
+    }
+    &__img {
+        @media (min-width: 320px) {
+            width: 100px;
+            height: 100px;
+        }
+        @media (min-width: 768px) {
+            width: 150px;
+            height: 150px;
+        }
+    }
+    &__block {
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+}

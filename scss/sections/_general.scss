@@ -1,0 +1,50 @@
+html {
+    scroll-behavior: smooth;
+}
+.container {
+    
+    margin: 0 auto;
+    @media (min-width:320px) {
+        // padding: 0 15px;
+        width: 100%;
+    }
+    @media (min-width: 375px) {
+        // padding: 0 20px;
+    }
+    @media (min-width: 768px) {
+        max-width: 768px;
+        padding: 0 32px;
+    }
+    @media (min-width: 1200px) {
+        max-width: 1136px;
+    }
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Bad Script;
+    font-style: normal;
+    // background-color:#fcd2dc;
+    background-color:#ffedf0;
+
+
+}
+
+p, h1, h2, h3 {
+    color: #6e696a;
+}

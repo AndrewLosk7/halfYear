@@ -1,0 +1,29 @@
+.hero {
+
+    &__heart{
+        height: 100px;
+        width: 100px;
+    }
+    &__title {
+        margin: 0;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        font-size: 70px;
+
+        color: #6e696a;
+        & span {
+            font-size: 50px;
+        }
+
+        text-align: center;
+    }
+    &__block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        flex-direction: column;
+
+        background-color: #fff;
+    }
+}
